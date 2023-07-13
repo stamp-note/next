@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d dist"
+    "dev": "app/node_modules/.bin/next dev",
+    "build": "app/node_modules/.bin/next build",
+    "start": "app/node_modules/.bin/next start",
+    "lint": "app/node_modules/.bin/next lint",
+    "deploy": "app/node_modules/.bin/gh-pages -d dist"
   },
   "dependencies": {
     "@types/node": "20.4.2",
